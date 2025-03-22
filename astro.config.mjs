@@ -41,18 +41,12 @@ export default defineConfig({
             {
               label: 'Series 2025',
               collapsed: false,
-              items: [
-                { label: 'Resolution 1', link: '/resolutions/2025/resolution-1' },
-                { label: 'Resolution 2', link: '/resolutions/2025/resolution-2' },
-              ]
+              autogenerate: { directory: 'resolutions/2025' },
             },
             {
               label: 'Series 2024',
               collapsed: false,
-              items: [
-                { label: 'Resolution 1', link: '/resolutions/2024/resolution-1' },
-                { label: 'Resolution 2', link: '/resolutions/2024/resolution-2' },
-              ]
+              autogenerate: { directory: 'resolutions/2024' },
             }
           ]
         },
