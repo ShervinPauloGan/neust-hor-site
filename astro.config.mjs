@@ -3,6 +3,15 @@ import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
+  vite: {
+    build: {
+      rollupOptions: {
+        external: [
+          './src/assets/'
+        ]
+      }
+    }
+  },
   integrations: [
     starlight({
       title: 'NEUST House of Representatives',
@@ -17,6 +26,10 @@ export default defineConfig({
         {
           label: 'Home',
           link: '/',
+        },
+        {
+          label: 'Officers',
+          link: '/officers',
         },
         {
           label: 'Resolutions',
@@ -42,10 +55,6 @@ export default defineConfig({
               ]
             }
           ]
-        },
-        {
-          label: 'Officers',
-          link: '/officers',
         },
         {
           label: 'About',
