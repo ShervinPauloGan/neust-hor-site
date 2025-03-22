@@ -14,13 +14,14 @@ export default defineConfig({
   },
   integrations: [
     starlight({
+
       title: 'NEUST House of Representatives',
        logo: {
          src: './src/assets/neust-hor.PNG',
        },
       social: {
-        github: 'https://github.com/your-org/your-repo',
-        facebook: 'https://facebook.com/your-page',
+        email: 'mailto: usg.hor@ineust.ph.education',
+        facebook: 'https://www.facebook.com/USGLegislativeBranch',
       },
       sidebar: [
         {
@@ -32,7 +33,7 @@ export default defineConfig({
           link: '/officers',
         },
         {
-          label: 'Resolutions',
+          label: 'Bills & Resolutions',
           items: [
             {
               label: 'Introduction',

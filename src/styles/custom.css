@@ -3,13 +3,14 @@
     --sl-color-accent-high: #ffd700;
     --sl-color-accent: #c4a600;
     --sl-color-accent-low: #665900;
-    --sl-color-text-accent: #bbbbbb;
+    --sl-color-text-accent: #afafaf;
   }
   
   [data-theme='dark'] {
     --sl-color-bg: #111111;
     --sl-color-bg-nav: #1a1a1a;
   }
+
   
   .hero-section {
     margin-bottom: 4rem;
