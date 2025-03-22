@@ -15,9 +15,9 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'NEUST House of Representatives',
-      logo: {
-        src: './src/assets/HOUSE-LOGO.png',
-      },
+      // logo: {
+      //   src: './src/assets/HOUSE-LOGO.png',
+      // },
       social: {
         github: 'https://github.com/your-org/your-repo',
         facebook: 'https://facebook.com/your-page',
